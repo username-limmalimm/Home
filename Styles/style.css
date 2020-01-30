@@ -1,0 +1,254 @@
+@import 'fonts.css';
+
+/*===============================================================HEADER START========================================================*/
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    /* outline: 1px solid red; */
+}
+
+header nav ul li a{
+    font-family: 'Montserrat-Medium';
+    text-transform: uppercase;
+    color: #191919;
+    font-size: 12px;
+}
+
+header nav ul li a:hover{
+    color: #007d2f;
+    list-style: none;
+    text-decoration: none;
+}
+
+header nav{
+    margin: 17px 0;
+}
+
+/*===============================================================MAIN START========================================================*/
+
+
+.container__bg{
+    /* height: 313px; */
+    background: #007d2f;
+}
+
+.container__bg h3{
+    font-family: 'Montserrat-Medium';
+    font-size: 30px;
+    color: #171717;
+    padding-top: 100px;
+}
+
+.container__bg h3 span{
+    text-transform: uppercase;
+}
+
+.container__bg p{
+    font-family: 'Roboto-Medium';
+    font-size: 17px;
+    color: #fefefe;
+    /* width: 495px; */
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+
+.container-fluid img{
+    padding: 0;
+}
+
+.oko__placeholder{
+    position: relative;
+    display: flex;
+}
+.oko__placeholder a{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    font-size: 48px;
+    color: white;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background: rgba(70, 126, 79, 0.85);
+}
+.oko__placeholder:hover .oko{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    padding: 0;
+}
+.oko__placeholder img{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    
+    
+}
+
+.container-fluid .row .oko__placeholder{
+    padding: 0;
+}
+
+
+
+
+
+
+
+
+
+/*=================================================================FOOTER START=========================================================*/
+
+footer{
+    height: 284px;
+    background: #141414;
+}
+
+footer .container{
+    height: 100%;
+}
+
+.right ul li a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+
+.right ul li a:hover{
+    color: wheat;
+}
+
+.left h4, .left p{
+    color: white;
+}
+
+.middle a{
+    text-decoration: none;
+    color: white;
+}
+
+.middle a:hover{
+    text-decoration: none;
+    color: wheat;
+}
+
+
+
+
+/*=================================================================FOOTER END=========================================================*/
+
+
+@media(max-width:991px){
+    .middle{
+        display: none;
+    }
+}
+
+@media(max-width:767px){
+    .container__bg h3{
+        
+        padding-top: 50px;
+    }
+
+    .container__bg p{
+        
+        padding-bottom: 50px;
+    }
+}
+
+
+@media(max-width:579px){
+    .container__bg h3{
+        font-size: 20px;
+    }
+
+    .container__bg p{
+        font-size: 12px;
+    }
+
+    .container__nav{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container__nav .logo{
+        margin-bottom: 25px;
+    }
+}
+
+@media(max-width:465px){
+    .header__menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    
+}
+
+@media(max-width:348px){
+
+    .container__bg h3{
+        font-size: 17px;
+        
+    }
+
+    .container__bg p{
+        font-size: 10px;
+        
+    }
+}
+
+@media(max-width:300px){
+    footer h4{
+        font-size: 18px;
+    }
+
+    footer p{
+        font-size: 10px;
+    }
+
+    footer a{
+        font-size: 8px;
+    }
+
+    .container__bg h3{
+        font-size: 15px;
+        
+    }
+    .container__bg p{
+        font-size: 9px;
+        
+    }
+}
+
+@media(max-width:245px){
+    .header__menu a{
+        font-size: 8px;
+    }
+
+    .container__bg h3{
+        font-size: 12px;
+        padding-top: 15px;
+    }
+
+    .container__bg p{
+        font-size: 8px;
+        padding-bottom: 15px;
+    }
+
+    header img{
+        height: 50px;
+    }
+}
