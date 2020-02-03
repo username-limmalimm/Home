@@ -113,6 +113,10 @@ footer{
     background: #141414;
 }
 
+footer .row{
+    width: 100%;
+}
+
 footer .container{
     height: 100%;
 }
